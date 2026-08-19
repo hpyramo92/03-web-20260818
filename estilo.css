@@ -6,14 +6,14 @@
 }
 
 body {
-    border: 0.5rem solid aqua;
+    /* border: 0.5rem solid aqua; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 header {
-    border: 0.2rem solid red;
+    /* border: 0.2rem solid red; */
     height: 4rem;
     display: flex;
     padding: .5rem;
@@ -25,7 +25,7 @@ header {
 }
 
 .logo {
-    border: .2rem solid blue;
+    /* border: .2rem solid blue; */
     background-color: blue;
     font-weight: bold;
     width: 1rem;
@@ -35,25 +35,44 @@ header {
     justify-content: center;
     align-items: center;
     align-content: center;
+    border-radius: 100%;
+    margin-right: .7rem;
 }
 
 .titulo {
-    border: .2rem solid black;
+    /* border: .2rem solid yellow; */
+    width: 100%;
 }
 
 section {
-    border: .2rem solid blue;
+    /* border: .2rem solid blue; */
+    display: flex;
+    flex: 1;
 }
 
 nav {
-    border: .2rem solid yellow;
+    /* border: .2rem solid yellow; */
+    width: 10rem;
+    background-color: #eee;
+    padding: .5rem;
 }
 
 main {
-    border: .2rem solid purple;
+    /* border: .2rem solid purple; */
+    display: flex;
+    flex: 1;
+    padding: 0.5rem;
 }
 
 footer {
-    border: .2rem solid green;
+    /* border: .2rem solid green; */
+    height: 4rem;
+    padding: .5rem;
+    background-color: #252323;
+    color: #eee;
+    /* display: flex; */
+    /* justify-content: center; alinhar horizontalmente */
+    /* align-items: center; */
+    /* align-content: center; */
 }
 
