@@ -17,7 +17,7 @@ header {
     height: 4rem;
     display: flex;
     padding: .5rem;
-    /* justify-content: center; */
+    /* justify-content: center; alinhar horizontalmente */
     align-items: center;
     align-content: center;
     background-color: #252323;
@@ -25,7 +25,16 @@ header {
 }
 
 .logo {
-    border: .2rem solid orange;
+    border: .2rem solid blue;
+    background-color: blue;
+    font-weight: bold;
+    width: 1rem;
+    height: 1rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .titulo {
