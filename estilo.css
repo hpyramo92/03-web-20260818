@@ -17,8 +17,11 @@ header {
     height: 4rem;
     display: flex;
     padding: .5rem;
+    /* justify-content: center; */
     align-items: center;
     align-content: center;
+    background-color: #252323;
+    color: #eee
 }
 
 .logo {
