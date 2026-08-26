@@ -60,49 +60,13 @@ nav {
     padding: .5rem;
 }
 
-main {
-    /* border: .2rem solid purple; */
+.container {
     display: flex;
     flex: 1;
-    padding: 0.5rem;
-}
-
-div.cartao {
-    border: 0.1rem solid #ccc;
-    border-radius: .5rem;
-    margin: 1rem auto;
-    padding: 0.5rem;
-    width: 20rem;
-    height: 28rem;
-    box-shadow: 0.5rem 0.5rem .3rem .3rem #329237;
-}
-
-#imagemCartao {
-    width: 100%;
-    border-radius: .5rem;
-}
-
-button {
-    width: 100%;
-    padding: .5rem;
-    border: none;
-    background-color: blue;
-    color: #eee;
-    border-radius: .5rem;
-}
-
-button:hover {
-    background-color: #2222b3;
-    color: white;
-}
-
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-#link {
-    text-align: right;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left;
 }
 
 footer {
@@ -116,4 +80,3 @@ footer {
     /* align-items: center; */
     /* align-content: center; */
 }
-
