@@ -1,11 +1,35 @@
-main {
-    /* border: .2rem solid purple; */
-    display: flex;
-    flex: 1;
-    padding: 0.5rem;
+.cartao {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 15rem;
+    box-shadow: .3rem .3rem 0.3rem 0.03rem #eee
 }
 
-div.cartao {
+.imagem-do-cartao {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 2/1.3;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.corpo-do-cartao {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* main { */
+    /* border: .2rem solid purple; */
+    /* display: flex; */
+    /* flex: 1; */
+    /* padding: 0.5rem; */
+/* } */
+
+/* div.cartao {
     border: 0.1rem solid #ccc;
     border-radius: .5rem;
     margin: 1rem auto;
@@ -13,9 +37,9 @@ div.cartao {
     width: 20rem;
     height: 28rem;
     box-shadow: 0.5rem 0.5rem .3rem .3rem #329237;
-}
+} */
 
-#imagemCartao {
+/* #imagemCartao {
     width: 100%;
     border-radius: .5rem;
 }
@@ -41,4 +65,4 @@ a {
 
 #link {
     text-align: right;
-}
+} */
