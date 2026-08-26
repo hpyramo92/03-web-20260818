@@ -36,6 +36,42 @@
     margin-bottom: .5rem;
 }
 
+.categoria-da-noticia,
+.data-da-noticia,
+.autor-da-noticia {
+    font-size: .7rem;
+}
+
+.categoria-da-noticia {
+    color: green;
+}
+
+.data-da-noticia {
+    color: red;
+}
+
+.descricao-da-noticia {
+    margin-bottom: .5rem;
+}
+
+.autor-da-noticia {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.botao-do-cartao {
+    max-width: 100%;
+    padding: .5rem;
+    background-color: blue;
+    color: #eee;
+    font-weight: bold;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
 
 /* main { */
     /* border: .2rem solid purple; */
