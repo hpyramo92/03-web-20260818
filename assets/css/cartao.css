@@ -73,6 +73,11 @@
     text-decoration: none;
 }
 
+.botao-do-cartao:hover {
+    background-color: #1818b0;
+    color: white;
+}
+
 /* main { */
     /* border: .2rem solid purple; */
     /* display: flex; */
