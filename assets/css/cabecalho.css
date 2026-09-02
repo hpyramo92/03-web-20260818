@@ -1,0 +1,60 @@
+header {
+    /* border: 0.2rem solid red; */
+    height: 4rem;
+    display: flex;
+    /* justify-content: center; alinhar horizontalmente */
+    align-items: center;
+    align-content: center;
+    padding: .5rem;
+    background-color: #252323;
+    color: #eee
+}
+
+.logo {
+    border: .1rem solid blue;
+    background-color: blue;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: .7rem;
+}
+
+.titulo {
+    /* border: .2rem solid yellow; */
+    /* width: 100%; */
+    flex: 1;
+}
+
+.menu-hamburguer {
+    /* border: .5rem solid red; */
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #464646;
+}
+
+.menu-hamburguer i {
+    background-color: blue;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.menu-hamburguer:hover i {
+    color: red;
+}
+
+.menu-hamburguer i:hover {
+    color: yellowgreen;
+}
