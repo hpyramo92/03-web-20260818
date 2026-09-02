@@ -1,0 +1,21 @@
+section {
+    /* border: .2rem solid blue; */
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    /* border: .2rem solid yellow; */
+    width: 10rem;
+    background-color: #eee;
+    padding: .5rem;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left;
+}
