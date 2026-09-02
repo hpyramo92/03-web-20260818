@@ -45,15 +45,15 @@ header {
     background-color: #464646;
 }
 
-.menu-hamburguer i {
+.menu-hamburguer #hamburguer {
     font-size: 1.2rem;
     color: #ccc;
 }
 
-.menu-hamburguer:hover i {
+.menu-hamburguer:hover #hamburguer {
     color: red;
 }
 
-.menu-hamburguer i:hover {
+.menu-hamburguer #hamburguer:hover {
     color: yellowgreen;
 }
