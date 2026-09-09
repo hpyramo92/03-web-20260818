@@ -47,3 +47,9 @@ li {
     flex: 1;
 }
 
+.icone-final {
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
