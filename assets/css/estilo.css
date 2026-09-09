@@ -1,6 +1,7 @@
 @import url("cabecalho.css");
-@import url("cartao.css");
 @import url("corpo.css");
+@import url("menuLateral.css");
+@import url("cartao.css");
 @import url("rodape.css");
 
 * {
