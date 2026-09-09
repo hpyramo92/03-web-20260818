@@ -20,3 +20,13 @@ li {
     color: #5e5e5e;
 }
 
+.opcao:hover {
+    background-color: #ccc;
+    color: black;
+    box-shadow: .3rem .3rem .3rem .01rem #ddd;
+    border: .1rem solid #bdbdbd;
+}
+
+.opcao:hover .rotulo {
+    text-align: right;
+}
