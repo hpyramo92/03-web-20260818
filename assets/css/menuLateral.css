@@ -30,3 +30,20 @@ li {
 .opcao:hover .rotulo {
     text-align: right;
 }
+
+/* #rotuloSair {
+    text-align: right;
+} */
+
+.opcao:hover .icone-final {
+    opacity: 1;
+}
+
+.icone-inicial {
+    width: 1.5rem;
+}
+
+.rotulo {
+    flex: 1;
+}
+
