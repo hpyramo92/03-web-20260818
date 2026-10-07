@@ -9,7 +9,7 @@
     <title>Meu Site</title>
     <script src="https://kit.fontawesome.com/ec3a3fcdd8.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <script src="./assets/js/menuHamburguer.js"></script>
 </head>
 
 <body>
@@ -17,8 +17,11 @@
     <header>
         <div id="logoDoSite" class="logo">H</div>
         <h1 class="titulo">Meu Site de Notícias</h1>
-        <div class="menu-hamburguer">
-            <i id="hamburguer" class="fa-solid fa-bars"></i>
+        <div 
+            class="menu-hamburguer"
+            onClick="alternarVisualizacaoDoMenuLateral()"
+        >
+            <i id="hamburguer" class="fa-solid fagit-bars"></i>
         </div>
     </header>
     <section>
