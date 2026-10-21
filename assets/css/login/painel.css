@@ -28,7 +28,8 @@ form {
     align-items: center;
 }
 
-.input-grupo i {
+.input-grupo .icone {
+    /* border: .5rem red solid; */
     position: absolute;
     left: 0.75rem;
     color: #999;
