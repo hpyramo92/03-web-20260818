@@ -1,4 +1,5 @@
-import usuario from "./bd"
+// import usuario from "./bd.js"
+
 
 function verificarCredenciais() {
     const emailInformado = document.getElementById("email").value;
