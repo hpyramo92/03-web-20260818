@@ -1,7 +1,7 @@
-// import usuario from "./bd.js"
+import { usuario } from "./bd.js";
 
-
-function verificarCredenciais() {
+function verificarCredenciais(event) {
+    event.preventDefault();
     const emailInformado = document.getElementById("email").value;
     const senhaInformada = document.getElementById("senha").value;
 
@@ -17,3 +17,5 @@ function verificarCredenciais() {
         alert("E-mail informado incorretamente!");
     }
 }
+
+document.querySelector("form").addEventListener("submit", verificarCredenciais);
