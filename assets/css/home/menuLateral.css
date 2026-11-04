@@ -4,8 +4,12 @@ nav {
     padding: 0.5rem;
 }
 
-a {
-    text-decoration: none;
+nav.menu-oculto {
+    display: none;
+}
+
+nav a {
+    text-decoration: none !important;
 }
 
 li {
