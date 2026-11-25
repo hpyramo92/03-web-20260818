@@ -55,3 +55,22 @@ const apresentarNoticias = () => {
         // </a>
     })
 }
+
+const valorParaPesquisar = document.getElementById("pesquisa");
+
+
+valorParaPesquisar.onkeyup = function () {
+    const termo = valorParaPesquisar.value.toLowerCase().trim();
+    const cards = document.getElementsByClassName("cartao");
+
+    for (var i = 0; i < cards.length; i++) {
+        var item = cards.item(i);
+        const conteudoItem = item.innerHTML.toLowerCase();
+
+        if (conteudoItem.includes(termo)) {
+            item.hidden = false;
+        } else {
+            item.hidden = true;
+        }
+    }
+}
