@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="" id="entrada">
+
+    <button onClick="adicionarElemento()">Ok</button>
+
+    <ul id="lista"></ul>
+
+    <script>
+        var vetor = [];
+        const entrada = document.getElementById("entrada");
+        // const lista = document.getElementById("lista");
+
+        function adicionarElemento() {
+            const termo = entrada.value.trim();
+            if (termo) {
+                vetor.push(termo);
+                entrada.value = "";
+                atualizarLista();
+            }
+        }
+
+        function atualizarLista() {
+            const lista = document.getElementById("lista");
+            lista.innerHTML = "";
+            vetor.forEach(function (item) {
+                const li = document.createElement("li");
+                li.textContent = item;
+                lista.appendChild(li);
+            });
+        }
+
+        entrada.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                adicionarElemento();
+            }
+        });
+
+        entrada.onkeyup = () => {
+            var termo = entrada.value.toLowerCase().trim();
+            var itens = document.getElementsByTagName("li");
+
+            for (var i = 0; i < itens.length; i++) {
+                var item = itens[i].innerHTML;
+
+                if (item.toLowerCase().includes(termo)) {
+                    itens[i].style.display = "block";
+                } else {
+                    itens[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
