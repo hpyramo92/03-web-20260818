@@ -23,7 +23,7 @@
         <h1 class="titulo">Meu Site de Notícias</h1>
         <div>
 
-            <div class="input-group">
+            <!-- <div class="input-group">
                 <span class="input-group-append">
                     <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3"
                         type="button">
@@ -32,6 +32,20 @@
                 </span>
                 <input class="form-control border-end-2 border rounded-pill" type="text" placeholder="Pesquisar..."
                     id="pesquisa">
+            </div> -->
+
+            <div class="md:col-6">
+                <div class="input-group">
+                    <span class="input-group-text" id="icon-input-addon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </span>
+                    <input id="pesquisa" class="form-control" type="text" placeholder="Pesquisar..."
+                        aria-label="Pesquisar..." aria-describedby="icon-input-addon">
+                </div>
             </div>
 
         </div>
